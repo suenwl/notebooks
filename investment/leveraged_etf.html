@@ -13077,10 +13077,10 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="S&amp;P-500-leveraged-ETF-analysis">S&amp;P 500 leveraged ETF analysis<a class="anchor-link" href="#S&amp;P-500-leveraged-ETF-analysis">&#182;</a></h1><h5 id="Context-and-introduction">Context and introduction<a class="anchor-link" href="#Context-and-introduction">&#182;</a></h5><p>Defying pundits, leveraged ETFs have significantly outperformed their respective base funds since their inception in the early 2010s. Originally seen as a short-term instrument, historical data from the past 10 years have since provided compelling evidence that such leveraged funds can consistently provide higher returns over the medium to long term timeframe (5-10 years). Despite covid19 precipitating the worst market rout in history, both the TQQQ and SPXL are still furnishing outsized returns relative to their respective base indexes.</p>
+<h1 id="S&amp;P-500-leveraged-ETF-analysis">S&amp;P 500 leveraged ETF analysis<a class="anchor-link" href="#S&amp;P-500-leveraged-ETF-analysis">&#182;</a></h1><h5 id="Context-and-introduction">Context and introduction<a class="anchor-link" href="#Context-and-introduction">&#182;</a></h5><p>Defying pundits, leveraged ETFs have significantly outperformed their respective base funds since their inception in the early 2010s. Originally seen as a short-term instrument, historical data from the past 10 years has since provided compelling evidence that such leveraged funds can consistently provide higher returns over the medium to long term timeframe (5-10 years). Despite covid-19 precipitating the worst market rout in history, both the TQQQ and SPXL are still furnishing outsized returns relative to their respective base indexes when tracked from their inception.</p>
 <p>The obvious question at the back of the investors' minds is if this is too good to be true - if there lie hidden risks and conditions under which even a long time horizon is unable to offset the relative volatility and downward propensity of a leveraged ETF. Notably, some have warned of volatility as the achilles' heel of leveraged ETFs. As such, this analysis will centre on a quantiative simulation of a 3X leveraged fund, using both historical and generated data to determine if leveraged ETFs are inevitably the winning horse for a passive investor's long run race.</p>
 <p>The following analysis broadly seeks to illustrate and prove the following two points:</p>
-<h5 id="1.-Leveraged-ETFs-require-two-conditions-to-be-satisfied-in-order-for-outsized-returns-to-be-available-in-the-long-run.-The-obvious-first-condition-is-that-markets-continue-to-trend-upwards.-The-second-condition-is-that-markets-do-not-become-significantly-more-volatile.-If-volatility-were-to-increase-due-to-uncertainty,-then-leveraged-ETFs-may-not-necessarily-be-the-long-run-winner.">1. Leveraged ETFs require two conditions to be satisfied in order for outsized returns to be available in the long run. The obvious first condition is that markets continue to trend upwards. The second condition is that markets do not become significantly more volatile. If volatility were to increase due to uncertainty, then leveraged ETFs may not necessarily be the long-run winner.<a class="anchor-link" href="#1.-Leveraged-ETFs-require-two-conditions-to-be-satisfied-in-order-for-outsized-returns-to-be-available-in-the-long-run.-The-obvious-first-condition-is-that-markets-continue-to-trend-upwards.-The-second-condition-is-that-markets-do-not-become-significantly-more-volatile.-If-volatility-were-to-increase-due-to-uncertainty,-then-leveraged-ETFs-may-not-necessarily-be-the-long-run-winner.">&#182;</a></h5><h5 id="2.-Timing-becomes-all-the-more-important-when-purchasing-leveraged-ETFs,-and-investors-should-adopt-a-dollar-cost-averaging-strategy-to-prevent-large-long-term-losses-in-the-face-of-bear-markets">2. Timing becomes all the more important when purchasing leveraged ETFs, and investors should adopt a dollar cost averaging strategy to prevent large long-term losses in the face of bear markets<a class="anchor-link" href="#2.-Timing-becomes-all-the-more-important-when-purchasing-leveraged-ETFs,-and-investors-should-adopt-a-dollar-cost-averaging-strategy-to-prevent-large-long-term-losses-in-the-face-of-bear-markets">&#182;</a></h5><p>An additional note is that this was written in June of 2020. I may come back to update this in the future but in case I do not, do take this notebook with a pinch of the hindsight salt of the 2030s. Future data may prove me very wrong indeed.</p>
+<h5 id="1.-Leveraged-ETFs-require-two-conditions-to-be-satisfied-in-order-for-outsized-returns-to-be-available-in-the-long-run.-The-obvious-first-condition-is-that-markets-continue-to-trend-upwards.-The-second-condition-is-that-markets-do-not-become-significantly-more-volatile.-If-volatility-were-to-increase-due-to-uncertainty,-then-leveraged-ETFs-may-not-necessarily-be-the-long-run-winner.">1. Leveraged ETFs require two conditions to be satisfied in order for outsized returns to be available in the long run. The obvious first condition is that markets continue to trend upwards. The second condition is that markets do not become significantly more volatile. If volatility were to increase due to uncertainty, then leveraged ETFs may not necessarily be the long-run winner.<a class="anchor-link" href="#1.-Leveraged-ETFs-require-two-conditions-to-be-satisfied-in-order-for-outsized-returns-to-be-available-in-the-long-run.-The-obvious-first-condition-is-that-markets-continue-to-trend-upwards.-The-second-condition-is-that-markets-do-not-become-significantly-more-volatile.-If-volatility-were-to-increase-due-to-uncertainty,-then-leveraged-ETFs-may-not-necessarily-be-the-long-run-winner.">&#182;</a></h5><h5 id="2.-Timing-becomes-all-the-more-important-when-purchasing-leveraged-ETFs,-and-investors-should-adopt-a-dollar-cost-averaging-strategy-to-prevent-large-long-term-losses-in-the-face-of-bear-markets">2. Timing becomes all the more important when purchasing leveraged ETFs, and investors should adopt a dollar cost averaging strategy to prevent large long-term losses in the face of bear markets<a class="anchor-link" href="#2.-Timing-becomes-all-the-more-important-when-purchasing-leveraged-ETFs,-and-investors-should-adopt-a-dollar-cost-averaging-strategy-to-prevent-large-long-term-losses-in-the-face-of-bear-markets">&#182;</a></h5><p>An additional note is that this was written in June of 2020. I may come back to update this in the future but in case I do not, do take this notebook with a pinch of hindsight salt. Future data may prove past analysis very wrong indeed.</p>
 
 </div>
 </div>
@@ -13104,8 +13104,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Casual readers can consider skipping this section, going directly to the section on simulation. The steps done here prepare reads and prepares the data for the subsequent steps ahead. Crucially, the percentage gain or loss is calculated here. The 3X gains/losses are then calculated based on those values. If the base index gains 3% in a day, the leveraged ETF gains 9%. If it loses 2%, the leveraged ETF loses 6%.</p>
-<p>Also of note is the fact that our dataset dates back at maximum to 1978. It is obtained from the Wall Street Journal.</p>
+<p>Casual readers can consider skipping this section, going directly to the section on simulation. The steps done here  are largely preparation for subsequent steps ahead. Crucially, the percentage gain or loss is calculated here. The 3X gains/losses are then calculated based on those values. If the base index gains 3% in a day, the leveraged ETF gains 9%. If it loses 2%, the leveraged ETF loses 6%.</p>
+<p>Also of note is the fact that our dataset comprises data from 1978-2020. It is obtained from the Wall Street Journal.</p>
 
 </div>
 </div>
@@ -13782,6 +13782,7 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h4 id="Is-such-a-change-in-volatility-likely,-or-even-possible?">Is such a change in volatility likely, or even possible?<a class="anchor-link" href="#Is-such-a-change-in-volatility-likely,-or-even-possible?">&#182;</a></h4><p>The obvious followup question to the above analysis is if it is possible for long-term volatility in the stock markets to change. A 0.005 volatility factor corresponds to 0.5% larger daily fluctuations in index values. Gains/losses of 2-3% are common for index ETFs, so an additional 0.5% on top of this 2 - 3% is not unthinkable - we see gains/losses of 2.5 - 3.5% quite commonly.</p>
+<p>A key assumption we are making in this analysis is that volatility and final returns are independent of each other. In practice this may not be the case. For example, larger fluctuations in the index might attract more day traders and drive away some institutional investors who seek stability. This change in demand will inevitably have an impact on the returns of the underlying index. Will increased volatility also result in increased growth that cancels out the negative effects that volatility has on leveraged ETFs? That needs to be further explored.</p>
 
 </div>
 </div>
@@ -13789,7 +13790,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h1><p>This analysis has hopefully clearly illustrated to the reader the immense importance of good timing when purchasing leveraged ETFs, and also the detrimental impact volatility can have on leveraged ETF returns. While any stock investor will have in his mind that the stock market will trend upwards over the long term, it is the twists and turns (or more accurately the ups and downs) that the leveraged ETF takes to get there that will decide the investment return of a leveraged ETF investor.</p>
+<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h1><p>This analysis has sought to illustrate to the reader the immense importance of good timing when purchasing leveraged ETFs, and also the detrimental impact that volatility has on leveraged ETF returns. While any stock investor will have in his mind that the stock market will trend upwards over the long term, it is the twists and turns (or more accurately the ups and downs) that the leveraged ETF takes to get there that will decide the investment return of a leveraged ETF investor.</p>
 <p>It is however, for the reader to determine if a fundamental increase in average volatility will happen over the long term. 2020 certainly looks like an uncertain and volatile year. The US-centric world order does seem to be shifting, and this certainly has ramifications on the US markets (where most of the world's leveraged ETFs are found). If it does, then the warnings of the pundits certainly are to be heeded, if not thoroughly considered - the leveraged ETF may not necessarily be as sublime a long term investment instrument as it initially makes out to be.</p>
 
 </div>
@@ -13803,6 +13804,19 @@ div#notebook {
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 </div>
     </div>
   </div>
