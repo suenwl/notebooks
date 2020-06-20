@@ -1,4 +1,8 @@
-function search() {
+window.onload = () => {
+  var input = document.getElementById("searchBar").focus();
+};
+
+const search = () => {
   var input, filter, ul, li, a, i, txtValue;
   input = document.getElementById("searchBar");
   filter = input.value.toUpperCase();
@@ -16,4 +20,4 @@ function search() {
       li[i].style.display = "none";
     }
   }
-}
+};
